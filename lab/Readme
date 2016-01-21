@@ -1,0 +1,20 @@
+arraypointer.c
+    About how to "malloc" a multidimensional array.
+divide.c
+    About how to divide an integer into equals parts.
+fork.c
+    About `fork(2)`.
+getoptlong.c
+    About `getopt_long(3)`.
+incr.c
+    About how to increment an `int *`.
+killer.c victim.c
+    About `SIGINT`.
+pipe+sem.c
+    About `pipe(2)` and `semaphore.h`.
+setbuf.c
+    About `setbuf(3)`.
+sigint.c
+    About `SIGINT` with a countdown.
+slaughter1.c slaughter2.c
+    About forking processes.

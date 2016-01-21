@@ -1,0 +1,12 @@
+#include <unistd.h>
+#define TAILLE 8
+
+int
+main (int argc, char *argv[])
+{
+    char tampon[TAILLE];
+    while (read(1, tampon, TAILLE) != -1) {
+        write(0, tampon, TAILLE);
+    }
+    return 0;
+}
